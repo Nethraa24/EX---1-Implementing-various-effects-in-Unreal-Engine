@@ -1,5 +1,8 @@
 # EX-1 Implementing various effects in Unreal Engine
 
+### Name : J.Nethraa
+### Reg No.: 212222100031
+
 ## Aim:
 To implement various effects in a material such as emissive, roughness, and metallic properties in Unreal Engine.
 
@@ -15,7 +18,7 @@ To implement various effects in a material such as emissive, roughness, and meta
    
 - Set the color and connect it to the Base Color input of the main node.
    
-8. For Emissive Effect:
+7. For Emissive Effect:
 
 - Add a Constant3Vector node and choose a bright color.
 
@@ -25,7 +28,7 @@ To implement various effects in a material such as emissive, roughness, and meta
 
 - Connect the Multiply output to the Emissive Color input.
 
-10. For Roughness Control:
+8. For Roughness Control:
 
 - Add a Constant or Scalar Parameter (if you want it adjustable later).
    
@@ -33,7 +36,7 @@ To implement various effects in a material such as emissive, roughness, and meta
    
 - Connect it to the Roughness input of the material.
 
-12. For Metallic Effect:
+9. For Metallic Effect:
 
 - Add a Constant or Scalar Parameter node.
 
@@ -41,16 +44,16 @@ To implement various effects in a material such as emissive, roughness, and meta
 
 - Connect it to the Metallic input.
 
-14. Optional:
+10. Optional:
 
 - Add Texture Sample nodes for any map inputs (e.g., roughness map, metallic map).
 
 - Connect them to corresponding inputs (Roughness, Metallic, Emissive).
 
-16. Change the Material Blend Mode to Opaque (or others as needed).
-17. Click Apply and Save the material.
-18. Go to the Viewport, select a mesh or surface.
-19. Drag and drop your material onto the mesh or apply it via the Details Panel.
+11. Change the Material Blend Mode to Opaque (or others as needed).
+12. Click Apply and Save the material.
+13. Go to the Viewport, select a mesh or surface.
+14. Drag and drop your material onto the mesh or apply it via the Details Panel.
 
 
 ## Output:
