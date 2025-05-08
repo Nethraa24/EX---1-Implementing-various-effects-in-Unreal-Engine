@@ -16,6 +16,7 @@ To implement various effects in a material such as emissive, roughness, and meta
    Set the color and connect it to the Base Color input of the main node.
    
 8. For Emissive Effect:
+   
    Add a Constant3Vector node and choose a bright color.
 
    Add a Multiply node.
