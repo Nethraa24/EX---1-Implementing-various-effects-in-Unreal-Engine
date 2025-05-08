@@ -16,7 +16,7 @@ To implement various effects in a material such as emissive, roughness, and meta
    Set the color and connect it to the Base Color input of the main node.
    
 8. For Emissive Effect:
-   
+
    Add a Constant3Vector node and choose a bright color.
 
    Add a Multiply node.
@@ -35,11 +35,11 @@ To implement various effects in a material such as emissive, roughness, and meta
 
 12. For Metallic Effect:
 
-   Add a Constant or Scalar Parameter node.
-   
-   Set value to 0 for non-metal, 1 for full metal.
-   
-   Connect it to the Metallic input.
+    Add a Constant or Scalar Parameter node.
+
+    Set value to 0 for non-metal, 1 for full metal.
+
+    Connect it to the Metallic input.
 
 14. Optional:
 
