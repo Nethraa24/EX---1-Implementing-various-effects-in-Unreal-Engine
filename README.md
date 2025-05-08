@@ -11,41 +11,41 @@ To implement various effects in a material such as emissive, roughness, and meta
 5. In the Material Editor, locate the Main Material Node (usually in the center).
 6. For Base Color:
 
-   - Add a Constant3Vector node (3-vector or use the shortcut 3) for color input.
+- Add a Constant3Vector node (3-vector or use the shortcut 3) for color input.
    
-   - Set the color and connect it to the Base Color input of the main node.
+- Set the color and connect it to the Base Color input of the main node.
    
 8. For Emissive Effect:
 
-   - Add a Constant3Vector node and choose a bright color.
+- Add a Constant3Vector node and choose a bright color.
 
-   - Add a Multiply node.
+- Add a Multiply node.
 
-   - Connect the color to A and a Constant (e.g., value 10) to B.
+- Connect the color to A and a Constant (e.g., value 10) to B.
 
-   - Connect the Multiply output to the Emissive Color input.
+- Connect the Multiply output to the Emissive Color input.
 
 10. For Roughness Control:
 
-   - Add a Constant or Scalar Parameter (if you want it adjustable later).
+- Add a Constant or Scalar Parameter (if you want it adjustable later).
    
-   - Set value between 0 (smooth) and 1 (rough).
+- Set value between 0 (smooth) and 1 (rough).
    
-   - Connect it to the Roughness input of the material.
+- Connect it to the Roughness input of the material.
 
 12. For Metallic Effect:
 
-    - Add a Constant or Scalar Parameter node.
+- Add a Constant or Scalar Parameter node.
 
-    - Set value to 0 for non-metal, 1 for full metal.
+- Set value to 0 for non-metal, 1 for full metal.
 
-    - Connect it to the Metallic input.
+- Connect it to the Metallic input.
 
 14. Optional:
 
-    - Add Texture Sample nodes for any map inputs (e.g., roughness map, metallic map).
+- Add Texture Sample nodes for any map inputs (e.g., roughness map, metallic map).
 
-    - Connect them to corresponding inputs (Roughness, Metallic, Emissive).
+- Connect them to corresponding inputs (Roughness, Metallic, Emissive).
 
 16. Change the Material Blend Mode to Opaque (or others as needed).
 17. Click Apply and Save the material.
